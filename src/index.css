@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(236, 236, 236);
+}
+.hello{
+background-color: white;
+}
+.mat{
+  background-color: darkgray;
+}
+.first{
+  border-radius: 5%;
+  border-color: rgb(116, 114, 112);
+
+position: absolute;
+}
+/* .second{
+  border-radius: 5%;
+  border-color: rgb(116, 114, 112);
+  background-color: rgb(238, 213, 238);
+box-shadow: cyan;
+position: absolute;
+} */
