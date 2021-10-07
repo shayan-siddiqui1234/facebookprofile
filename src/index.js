@@ -1,8 +1,9 @@
 
 import ReactDOM from 'react-dom';
 import React  from 'react';
-import A from './a.jpg';
-import B from './b.jpg';
+import A from './henry.jpg';
+import B from './shahid.jpg';
+import C from './man.jpg';
 import './index.css'
 
 
@@ -49,50 +50,38 @@ import './index.css'
     //  
 
 
-    function Hi({title,body,image}) {
-        return <div> <h1>  facebook Page </h1>
-         <div  className="first">  <h1> <center>{title}</center> </h1>
-        <p>{body}</p>
+    function Hi() {
+        return <div> <h1>  <center>facebook Page</center> </h1>
+         <div  className="first">  <h1> <center>Henry Michael</center> </h1>
+        <p><b>Profile Picture updated</b></p> <p>  &nbsp;23 Hours ago</p>
         <img src={A} alt="A cricket picture" width="1280px" height="800px"/>
+       <p> <b><h3> <center> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &#128077; Like   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#128238;Commit   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9166;Share </center> </h3></b> </p>  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     
+        
+        <div  className="first">  <h1> <center>Shahid Afridi</center> </h1>
+        <p><b>Profile Picture updated</b></p> <p>  &nbsp;12 Hours ago</p>
+        <img src={B} alt="A cricket picture" width="1280px" height="800px"/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p> <b><h3> <center> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &#128077; Like   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#128238;Commit   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9166;Share </center> </h3></b> </p>  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        
-            <div  className="second">  <h1> <center>cricket</center> </h1>
-        <p>cricket
-        </p>
-        <img src={B} alt="A cricket picture" width="1280px" height="800px"/>
+     
+     <div  className="first">  <h1> <center>Johan Williamson</center> </h1>
+        <p><b>Profile Picture updated</b></p> <p>  &nbsp;2 days ago</p>
+        <img src={C} alt="A cricket picture" width="1280px" height="800px"/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p> <b><h3> <center> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &#128077; Like   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#128238;Commit   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9166;Share </center> </h3></b> </p>  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
-        <div  className="second">  <h1> <center>cricket</center> </h1>
-        <p>cricket
-        </p>
-        <img src={B} alt="A cricket picture" width="1280px" height="800px"/>
         </div>
-        <div  className="second">  <h1> <center>cricket</center> </h1>
-        <p>cricket
-        </p>
-        <img src={B} alt="A cricket picture" width="1280px" height="800px"/>
         </div>
-        <div  className="second">  <h1> <center>cricket</center> </h1>
-        <p>cricket
-        </p>
-        <img src={B} alt="A cricket picture" width="1280px" height="800px"/>
-        </div></div>
-            </div>
+        </div>
             }
 
-            // const Gate = ({isOpen})  => {
-            //     return isOpen ? <p>Open</p> : <p>closed</p>
-            //  } 
            
-            // const Mode = () => { 
-            //     const isLit = state[0];
-            //     const setLit = state[1];
-                
-    
-            //     const state = React.useState(true)
-            //     return <div>  the room is {isLit ? "lit" : "dark"}</div>
-            // }
-
            
-ReactDOM.render(<Hi title="picture" body="this os the picture" /> ,document.querySelector('#root') );
+ReactDOM.render(<Hi/> ,document.querySelector('#root') );
 // ReactDOM.render(<Gate isOpen="true"/>, document.querySelector('#root'));
 // ReactDOM.render(<Mode/>, document.querySelector('#root'));
 

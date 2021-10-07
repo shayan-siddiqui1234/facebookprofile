@@ -8,8 +8,7 @@ background-color: white;
   background-color: darkgray;
 }
 .first{
-  border-radius: 5%;
-  border-color: rgb(116, 114, 112);
+  border-style: solid;
 
 position: absolute;
 }
