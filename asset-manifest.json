@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/facebookprofile/static/css/main.33d5acda.chunk.css",
+    "main.js": "/facebookprofile/static/js/main.d22c4fce.chunk.js",
+    "main.js.map": "/facebookprofile/static/js/main.d22c4fce.chunk.js.map",
+    "runtime-main.js": "/facebookprofile/static/js/runtime-main.0b76a2b6.js",
+    "runtime-main.js.map": "/facebookprofile/static/js/runtime-main.0b76a2b6.js.map",
+    "static/js/2.8e1c456d.chunk.js": "/facebookprofile/static/js/2.8e1c456d.chunk.js",
+    "static/js/2.8e1c456d.chunk.js.map": "/facebookprofile/static/js/2.8e1c456d.chunk.js.map",
+    "index.html": "/facebookprofile/index.html",
+    "static/css/main.33d5acda.chunk.css.map": "/facebookprofile/static/css/main.33d5acda.chunk.css.map",
+    "static/js/2.8e1c456d.chunk.js.LICENSE.txt": "/facebookprofile/static/js/2.8e1c456d.chunk.js.LICENSE.txt",
+    "static/media/henry.531310b7.jpg": "/facebookprofile/static/media/henry.531310b7.jpg",
+    "static/media/man.eac83b01.jpg": "/facebookprofile/static/media/man.eac83b01.jpg",
+    "static/media/shahid.76b17892.jpg": "/facebookprofile/static/media/shahid.76b17892.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b76a2b6.js",
+    "static/js/2.8e1c456d.chunk.js",
+    "static/css/main.33d5acda.chunk.css",
+    "static/js/main.d22c4fce.chunk.js"
+  ]
+}
